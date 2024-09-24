@@ -1,0 +1,10 @@
+/* Ensure the parent container uses flexbox for centering */
+.feed-container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    
+    height: 100%;
+    width: 100%;
+}
+
+

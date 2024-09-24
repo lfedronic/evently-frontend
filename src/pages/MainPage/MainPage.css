@@ -1,0 +1,43 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column1 {
+    background-color: red;
+}
+
+.column2 {
+    background-color: blue;
+    flex: 2;
+}
+.mapview {
+    flex: 2; /* Give the mapview more space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
